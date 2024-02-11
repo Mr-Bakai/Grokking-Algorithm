@@ -19,3 +19,14 @@ func factorial(_ x: Int) -> Int {
         return x * factorial(x - 1)
     }
 }
+
+// MARK: D&C exercise
+func sum(_ arr: [Int]) -> Int {
+    var mutableArr = arr
+    if mutableArr.isEmpty {
+        return 0
+    } else {
+        let first = mutableArr.removeFirst()
+        return first + sum(mutableArr)
+    }
+}

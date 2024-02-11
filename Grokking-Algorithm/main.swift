@@ -33,5 +33,7 @@ private func binarySearch(_ list: [Int], item: Int) -> Int? {
 }
 
 print("BINARY SEARCH: \(binarySearch([1,2,3,4,5], item: 4))")
-
 print("SELCTION SORT: \(selectionSort([1,2,3,4,5]))")
+print("FACTORIAL: \(factorial(5))")
+print("SUM: \(sum([1,2,3,4,5]))")
+
