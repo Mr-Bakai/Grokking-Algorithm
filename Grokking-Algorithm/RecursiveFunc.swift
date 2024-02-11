@@ -21,11 +21,14 @@ func factorial(_ x: Int) -> Int {
 }
 
 // MARK: D&C exercise
+/// When you’re writing a recursive function involving an array,
+/// the base case is often an `empty array or an array with one element`
+/// If you’re stuck, try that first.
 func sum(_ arr: [Int]) -> Int {
     var mutableArr = arr
-    if mutableArr.isEmpty {
+    if mutableArr.isEmpty { /// This is a `Base Case`
         return 0
-    } else {
+    } else {                /// This is a `Recursive case`
         let first = mutableArr.removeFirst()
         return first + sum(mutableArr)
     }

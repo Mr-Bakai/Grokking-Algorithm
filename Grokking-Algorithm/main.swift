@@ -36,4 +36,5 @@ print("BINARY SEARCH: \(binarySearch([1,2,3,4,5], item: 4))")
 print("SELCTION SORT: \(selectionSort([1,2,3,4,5]))")
 print("FACTORIAL: \(factorial(5))")
 print("SUM: \(sum([1,2,3,4,5]))")
+print("QUICK SORT: \(quickSort([10, 5, 2, 3]))")
 
