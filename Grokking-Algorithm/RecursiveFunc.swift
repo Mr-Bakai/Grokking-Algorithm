@@ -10,7 +10,7 @@ import Foundation
 // MARK: - Stack Call explanation
 
 ///  factorial(5) is written as `5!`
-///  defined like this: 5! = 5 * 4 * 3 * 2 * 1
+///  defined like this:  `5! = 5 * 4 * 3 * 2 * 1`
 
 func factorial(_ x: Int) -> Int {
     if x == 1 {

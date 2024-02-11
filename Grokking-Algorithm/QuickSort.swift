@@ -28,3 +28,8 @@ func quickSort(_ arr: [Int]) -> [Int] {
         return quickSort(less) + [pivot] + quickSort(great)
     }
 }
+
+
+///  Quicksort is a tricky case.
+///  In the worst case, quicksort takes `O(n2)` time
+///  In the average case, quicksort takes `O(n log n)` time
