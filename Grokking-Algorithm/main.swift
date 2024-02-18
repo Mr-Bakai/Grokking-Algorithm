@@ -17,8 +17,8 @@ private func binarySearch(_ list: [Int], item: Int) -> Int? {
     var high = (list.count - 1)     /// `low` and `high` keep track of which part of the list you’ll search in.
     
     while low <= high {             /// While you haven’t narrowed it down to one element ...
-        var mid = (low + high) / 2
-        var guess = list[mid]
+        let mid = (low + high) / 2
+        let guess = list[mid]
         
         if guess == item {          /// Found the item.
             return mid

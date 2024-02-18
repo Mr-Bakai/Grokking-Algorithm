@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A5A59302B81DA0C0045D218 /* BreadthFirstSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A592F2B81DA0C0045D218 /* BreadthFirstSearch.swift */; };
 		6ACAB69F2B78B392004E6D5C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACAB69E2B78B392004E6D5C /* main.swift */; };
 		6ACAB6A62B78B412004E6D5C /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACAB6A52B78B412004E6D5C /* SelectionSort.swift */; };
 		6ACAB6A82B78E287004E6D5C /* RecursiveFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACAB6A72B78E287004E6D5C /* RecursiveFunc.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6A5A592F2B81DA0C0045D218 /* BreadthFirstSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreadthFirstSearch.swift; sourceTree = "<group>"; };
 		6ACAB69B2B78B392004E6D5C /* Grokking-Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Grokking-Algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ACAB69E2B78B392004E6D5C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		6ACAB6A52B78B412004E6D5C /* SelectionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				6ACAB6A52B78B412004E6D5C /* SelectionSort.swift */,
 				6ACAB6A72B78E287004E6D5C /* RecursiveFunc.swift */,
 				6ACAB6A92B78F38D004E6D5C /* QuickSort.swift */,
+				6A5A592F2B81DA0C0045D218 /* BreadthFirstSearch.swift */,
 			);
 			path = "Grokking-Algorithm";
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 			files = (
 				6ACAB6A62B78B412004E6D5C /* SelectionSort.swift in Sources */,
 				6ACAB69F2B78B392004E6D5C /* main.swift in Sources */,
+				6A5A59302B81DA0C0045D218 /* BreadthFirstSearch.swift in Sources */,
 				6ACAB6A82B78E287004E6D5C /* RecursiveFunc.swift in Sources */,
 				6ACAB6AA2B78F38D004E6D5C /* QuickSort.swift in Sources */,
 			);
