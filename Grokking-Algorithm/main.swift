@@ -37,4 +37,8 @@ print("SELCTION SORT: \(selectionSort([1,2,3,4,5]))")
 print("FACTORIAL: \(factorial(5))")
 print("SUM: \(sum([1,2,3,4,5]))")
 print("QUICK SORT: \(quickSort([10, 5, 2, 3]))")
+print("\n")
+print("BREADTH FIRST SEARCH FOR m: \(breadthFirstSearch(name: "you", graph: graphImpl(), forSuffix: "m"))")
+print("BREADTH FIRST SEARCH FOR e: \(breadthFirstSearch(name: "you", graph: graphImpl(), forSuffix: "e"))")
+print("BREADTH FIRST SEARCH FOR d: \(breadthFirstSearch(name: "you", graph: graphImpl(), forSuffix: "d"))")
 
