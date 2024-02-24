@@ -41,4 +41,5 @@ print("\n")
 print("BREADTH FIRST SEARCH FOR m: \(breadthFirstSearch(name: "you", graph: graphImpl(), forSuffix: "m"))")
 print("BREADTH FIRST SEARCH FOR e: \(breadthFirstSearch(name: "you", graph: graphImpl(), forSuffix: "e"))")
 print("BREADTH FIRST SEARCH FOR d: \(breadthFirstSearch(name: "you", graph: graphImpl(), forSuffix: "d"))")
-
+let d = DijkstrasAlgorithm()
+d.dijkstrasAlgorithmImpl()
