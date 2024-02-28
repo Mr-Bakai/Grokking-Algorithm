@@ -33,7 +33,7 @@ private func binarySearch(_ list: [Int], item: Int) -> Int? {
 }
 
 print("BINARY SEARCH: \(binarySearch([1,2,3,4,5], item: 4))")
-print("SELCTION SORT: \(selectionSort([1,2,3,4,5]))")
+print("SELECTION SORT: \(selectionSort([1,2,3,4,5]))")
 print("FACTORIAL: \(factorial(5))")
 print("SUM: \(sum([1,2,3,4,5]))")
 print("QUICK SORT: \(quickSort([10, 5, 2, 3]))")
@@ -42,9 +42,29 @@ print("BREADTH FIRST SEARCH FOR m: \(breadthFirstSearch(name: "you", graph: grap
 print("BREADTH FIRST SEARCH FOR e: \(breadthFirstSearch(name: "you", graph: graphImpl(), forSuffix: "e"))")
 print("BREADTH FIRST SEARCH FOR d: \(breadthFirstSearch(name: "you", graph: graphImpl(), forSuffix: "d"))")
 
+print("\n")
+print("DIJKSTRAS ALGORITHM ORIGINAL")
+dijkstrasAlgorithmImpl(
+    graph: getGraphOriginal().graph,
+    costs: getGraphOriginal().costs,
+    parents: getGraphOriginal().parents,
+    proccessed: getGraphOriginal().proccessed
+)
+
+print("\n")
+print("DIJKSTRAS ALGORITHM A")
 dijkstrasAlgorithmImpl(
     graph: getGraphA().graph,
     costs: getGraphA().costs,
     parents: getGraphA().parents,
     proccessed: getGraphA().proccessed
+)
+
+print("\n")
+print("DIJKSTRAS ALGORITHM B")
+dijkstrasAlgorithmImpl(
+    graph: getGraphB().graph,
+    costs: getGraphB().costs,
+    parents: getGraphB().parents,
+    proccessed: getGraphB().proccessed
 )
