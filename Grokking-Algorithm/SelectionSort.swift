@@ -5,8 +5,6 @@
 //  Created by Bakai Ismaiilov on 11/2/24.
 //
 
-import Foundation
-
 // MARK: - Some kind of Selection Sort
 /// sorts an array from smallest to biggest
 func selectionSort(_ arr: [Int]) -> [Int] {

@@ -5,8 +5,6 @@
 //  Created by Bakai Ismaiilov on 11/2/24.
 //
 
-import Foundation
-
 // MARK: - Stack Call explanation
 
 ///  factorial(5) is written as `5!`

@@ -5,8 +5,6 @@
 //  Created by Bakai Ismaiilov on 4/3/24.
 //
 
-import Foundation
-
 private func foo() {
     
     var statesNeeded = Set(["mt", "wa", "or", "id", "nv", "ut", "ca", "az"])
